@@ -27,8 +27,12 @@ git merge develop
 git push origin master
 git push origin develop
 
+git commit --amend -m "Update Message"
+
 [OPTIONAL]
 git branch -D deleteme
 git remote prune deleteme
 
 git push origin :deleteme
+
+
