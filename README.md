@@ -1,5 +1,5 @@
 Training Git @STAMP HQ
-=====================*
+=====================@@
 git init
 git config user.name="kanchai"
 git config user.email="ming.beloved@gmail.com"
