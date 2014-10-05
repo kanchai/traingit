@@ -1,5 +1,6 @@
 Training Git @STAMP HQ
 =====================@@
+[GENERAL]
 git init
 git config user.name="kanchai"
 git config user.email="ming.beloved@gmail.com"
@@ -26,4 +27,8 @@ git merge develop
 git push origin master
 git push origin develop
 
-...
+[OPTIONAL]
+git branch -D deleteme
+git remote prune deleteme
+
+git push origin :deleteme
